@@ -9,13 +9,86 @@
   A fully offline QR code and barcode scanner + generator for Android.
 </p>
 
+
 <p align="center">
-  <a href="https://github.com/engrpanda/Scanora_QR_Barcode/releases"><img src="https://img.shields.io/github/v/release/engrpanda/Scanora_QR_Barcode?label=version&color=4CAF50" alt="Version"/></a>
-  <a href="https://developer.android.com/about/versions/lollipop"><img src="https://img.shields.io/badge/Android-5.0%2B-green?logo=android" alt="Min SDK"/></a>
-  <img src="https://img.shields.io/badge/Kotlin-2.0-blueviolet?logo=kotlin" alt="Kotlin"/>
-  <img src="https://img.shields.io/badge/offline-100%25-blue" alt="Offline"/>
-  <a href="PRIVACY_POLICY.md"><img src="https://img.shields.io/badge/privacy-no%20data%20collected-brightgreen" alt="Privacy"/></a>
+  <a href="https://github.com/engrpanda/Scanora_QR_Barcode/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️%20Download-Scanora%20App-4CAF50?style=for-the-badge&logo=android&logoColor=white" alt="Download Scanora"/>
+  </a>
 </p>
+
+
+
+
+
+<p align="center">
+  <a href="https://github.com/engrpanda/Scanora_QR_Barcode/releases/latest">
+<img src="https://img.shields.io/github/v/release/engrpanda/Scanora_QR_Barcode?include_prereleases&label=version&color=4CAF50" alt="Version"/>
+  </a>
+  <img src="https://img.shields.io/badge/Android-5.0%2B-3DDC84?logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Kotlin-2.0-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Offline-100%25-1E88E5" alt="Offline"/>
+  <a href="./PRIVACY_POLICY.md">
+    <img src="https://img.shields.io/badge/Privacy-No%20Data%20Collected-43A047" alt="Privacy"/>
+  </a>
+</p>
+
+
+
+
+
+
+---
+
+## ⚠️ Beta Release (v1.0 - Prerelease)
+
+Scanora is currently in **beta testing phase**.
+
+This version is:
+- 🧪 Actively being tested
+- 🐛 May contain bugs or unfinished features
+- 🚀 Receiving frequent updates
+
+### What to expect in beta:
+- Core scanning and generating features are stable
+- Some UI/UX improvements are still in progress
+- Performance optimizations will continue
+- New barcode formats and features may be added or changed
+
+---
+
+## 🧪 Testing Notes
+
+If you're testing Scanora:
+- Try scanning different QR / barcode types
+- Test gallery image scanning
+- Test flashlight + zoom features
+- Check history saving and deletion
+- Report any crashes or incorrect scans
+
+👉 Your feedback helps improve stability before stable release.
+
+---
+
+## 💡 Suggestions / Feature Requests
+
+We welcome suggestions such as:
+- New barcode formats
+- UI improvements
+- Faster scanning performance ideas
+- Export / backup history feature
+- Theme customization options
+- Widgets or shortcuts
+
+Feel free to open an issue or discussion:
+👉 https://github.com/engrpanda/Scanora_QR_Barcode/issues
+
+---
+
+
+
+
+
+
 
 ---
 
