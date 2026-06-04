@@ -4,16 +4,23 @@
 
 <h1 align="center">Scanora — QR & Barcode Scanner · Maker</h1>
 
+
+
 <p align="center">
   <b>Scan it. Make it. Share it.</b><br/>
   A fully offline, privacy-first QR code and barcode scanner + generator for Android.
 </p>
+
+
 
 <p align="center">
   <a href="https://github.com/engrpanda/Scanora_QR_Barcode/releases/latest">
     <img src="https://img.shields.io/badge/⬇️%20Download-Scanora%20App-4CAF50?style=for-the-badge&logo=android&logoColor=white" alt="Download Scanora"/>
   </a>
 </p>
+
+<img src="https://github.com/engrpanda/Scanora_QR_Barcode/blob/main/Asset/3.png?raw=true">
+
 
 <p align="center">
   <a href="https://github.com/engrpanda/Scanora_QR_Barcode/releases/latest">
@@ -42,7 +49,6 @@ Scanora is currently in **active beta**. Core scanning and generation features a
 
 - [About](#-about)
 - [Features](#-features)
-- [Screenshots](#-screenshots)
 - [Installation](#-installation)
 - [Tech Stack](#-tech-stack)
 - [Permissions](#-permissions)
@@ -170,13 +176,7 @@ Format identification card shows the detected barcode type, category, and a huma
 
 ---
 
-## 📸 Screenshots
-
-> _Screenshots coming soon. Add yours to `/screenshots` and open a PR!_
-
----
-
-## 📲 Installation
+### 📲 Installation
 
 ### Download APK (Recommended for Beta)
 
@@ -185,27 +185,9 @@ Format identification card shows the detected barcode type, category, and a huma
 3. On your Android device, allow **Install from unknown sources** if prompted
 4. Open the downloaded APK and tap Install
 
-### Build from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/engrpanda/Scanora_QR_Barcode.git
-cd Scanora_QR_Barcode
-
-# Open in Android Studio (Hedgehog or newer recommended)
-# Sync Gradle, then build:
-./gradlew assembleDebug
-```
-
-**Requirements:**
-- Android Studio Hedgehog (2023.1.1) or newer
-- JDK 17+
-- Android SDK 34
-- Kotlin 2.0
-
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 | Layer | Library / Technology |
 |---|---|
@@ -219,23 +201,6 @@ cd Scanora_QR_Barcode
 | Architecture | MVVM · ViewModel · LiveData · Repository pattern |
 | Min SDK | API 21 (Android 5.0 Lollipop) |
 | Target SDK | API 34 (Android 14) |
-
----
-
-## 🔐 Permissions
-
-Scanora requests only the permissions it genuinely needs:
-
-| Permission | Why it's needed |
-|---|---|
-| `CAMERA` | Live camera scanning |
-| `VIBRATE` | Haptic feedback on successful scan |
-| `FLASHLIGHT` | Torch control while scanning |
-| `READ_MEDIA_IMAGES` (API 33+) | Import an image from gallery to scan |
-| `READ_EXTERNAL_STORAGE` (API ≤ 32) | Import an image from gallery to scan |
-| `WRITE_EXTERNAL_STORAGE` (API ≤ 28) | Save generated barcodes/QR codes to gallery |
-
-**No `INTERNET` permission is declared or used. All processing is 100% on-device.**
 
 ---
 
@@ -254,7 +219,7 @@ See [PRIVACY_POLICY.md](./PRIVACY_POLICY.md) for the full policy.
 
 ---
 
-## 🗺️ Roadmap
+### 🗺️ Roadmap
 
 Planned improvements and upcoming features:
 
